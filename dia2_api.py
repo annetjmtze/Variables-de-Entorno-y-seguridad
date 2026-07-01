@@ -53,3 +53,8 @@ def crear_nuevo_post():
 # Ejecutamos ambas funciones
 obtener_posts_usuario_3()
 crear_nuevo_post()
+# --- Punto de entrada principal del script ---
+# Este bloque solo se ejecuta cuando corres el archivo directamente
+if __name__ == "__main__":
+    obtener_posts_usuario_3()
+    crear_nuevo_post()
